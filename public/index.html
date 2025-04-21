@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">NETFLIX</a>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">New & Popular</a>
+            <a href="#">My List</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search movies..." />
+            <button onclick="searchMovies()">Search</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Stranger Things</h1>
+            <p>When a young boy vanishes, a small town uncovers a mystery involving secret experiments and supernatural forces.</p>
+            <button class="cta-button" onclick="showAlert('Play')">Play</button>
+            <button class="cta-button" onclick="showAlert('More Info')">More Info</button>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content">
+        <div class="category">
+            <h2>Trending Now</h2>
+            <div class="movie-grid" id="trending-now"></div>
+        </div>
+        <div class="category">
+            <h2>Continue Watching</h2>
+            <div class="movie-grid" id="continue-watching"></div>
+        </div>
+        <div class="category">
+            <h2>My Favorites</h2>
+            <div class="movie-grid" id="favorites"></div>
+        </div>
+    </section>
+
+    <!-- Movie Details Modal -->
+    <div class="modal" id="movie-modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <img id="modal-poster" src="" alt="Movie Poster">
+            <p id="modal-description"></p>
+            <p id="modal-genre"></p>
+            <button id="modal-favorite-btn" onclick="toggleFavoriteFromModal()">Add to Favorites</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

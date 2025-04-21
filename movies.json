@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Action Thriller",
+        "poster": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "category": "trending",
+        "description": "A high-octane chase through a dystopian city, where a rogue agent uncovers a global conspiracy.",
+        "genre": "Action"
+    },
+    {
+        "id": 2,
+        "title": "Sci-Fi Adventure",
+        "poster": "https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&amp;w=200&q=80",
+        "category": "trending",
+        "description": "An astronaut embarks on a mission to a distant planet, discovering secrets of the universe.",
+        "genre": "Sci-Fi"
+    },
+    {
+        "id": 3,
+        "title": "Drama",
+        "poster": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "category": "trending",
+        "description": "A family struggles to reunite after a tragic event tears them apart.",
+        "genre": "Drama"
+    },
+    {
+        "id": 4,
+        "title": "Comedy",
+        "poster": "https://images.unsplash.com/photo-1524985069026-ddce5533ae41?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "category": "trending",
+        "description": "A group of friends navigate hilarious mishaps during a chaotic road trip.",
+        "genre": "Comedy"
+    },
+    {
+        "id": 5,
+        "title": "Mystery Series",
+        "poster": "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "category": "continue",
+        "description": "A detective unravels a web of lies in a small town with dark secrets.",
+        "genre": "Mystery"
+    },
+    {
+        "id": 6,
+        "title": "Fantasy Epic",
+        "poster": "https://images.unsplash.com/photo-1535632787354-7207e8f02936?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "category": "continue",
+        "description": "A young hero embarks on a quest to defeat an ancient evil in a magical world.",
+        "genre": "Fantasy"
+    },
+    {
+        "id": 7,
+        "title": "Crime Drama",
+        "poster": "https://images.unsplash.com/photo-1574266265290-150bdfe24612?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+        "category": "continue",
+        "description": "A seasoned cop takes on a powerful crime syndicate in a gritty urban setting.",
+        "genre": "Crime"
+    }
+]
